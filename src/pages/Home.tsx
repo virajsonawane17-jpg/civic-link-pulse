@@ -83,10 +83,10 @@ export default function Home() {
               </Button>
               <Button 
                 size="lg" 
-                variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-civic-navy font-semibold px-8"
+                className="bg-white text-civic-navy hover:bg-white/90 font-semibold px-8"
               >
                 Learn More
+                <ChevronRight className="ml-2 h-5 w-5" />
               </Button>
             </div>
           </div>
